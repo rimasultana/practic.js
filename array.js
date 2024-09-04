@@ -66,8 +66,19 @@
 // console.log(fruits);
 
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits[6] = 'lemon';
-console.log(fruits);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits[6] = 'lemon';
+// console.log(fruits);
 
 
+// const points = new Array(40, 50, 490,97,);
+// console.log(points);
+
+// const point = [40, 50, 49, 50, 2, 345];
+
+// console.log(point);
+
+
+const fruits = ["Banna", 'orange', 'Aplle'];
+let fruit = Array.isArray(fruits);
+console.log(fruit);
