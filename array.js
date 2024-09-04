@@ -14,7 +14,6 @@
 // const car = new Array("Saab", "Volvo", "BMw");
 // console.log(car);
 
-
 // converting an Array to String
 
 // const fruits = ['banana', 'orange', 'Apple', 'Mango'];
@@ -44,14 +43,31 @@
 // }
 // console.log(persons.firstName);
 
-const fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
-let length =fruits.length;
-// let fruit =fruits[0]
-// console.log(fruit);
+// const fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+// let length =fruits.length;
+// // let fruit =fruits[0]
+// // console.log(fruit);
 
-// Accessing the last Element
-// let fruit = fruits[fruits.length -1];
-// console.log(fruit);
+// // Accessing the last Element
+// // let fruit = fruits[fruits.length -1];
+// // console.log(fruit);
 
-let Mango = fruits[fruits.length - 1];
-console.log(Mango);
+// let Mango = fruits[fruits.length - 1];
+// console.log(Mango);
+
+// // Adding Array Element
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// // let fruit = fruits.push('lemon');
+// //  fruits[2] = 'lemon'
+
+// // fruits.push('lemon');
+// // differnts waya to adding fruits
+// fruits[fruits.length] = 'lemon';
+// console.log(fruits);
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[6] = 'lemon';
+console.log(fruits);
+
+
